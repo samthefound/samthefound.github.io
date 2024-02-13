@@ -77296,7 +77296,7 @@ A.yI.prototype={
 ad(){return new A.yJ(B.i)}}
 A.yJ.prototype={
 an(){var s,r=this
-r.d=A.aEN(0.14285714285714285)
+r.d=A.aEN(0.2)
 s=r.a.d
 new A.bS(s,A.j(s).h("bS<1>")).e6(new A.a7P(r))
 A.bE(A.bs(0,0,0,500,0,0),r.gPV())
@@ -77321,7 +77321,7 @@ s.a8w(a,B.ab,A.bs(0,0,0,0,0,1))
 this.w=!0},
 M(a){var s,r=this,q=null,p=$.es().a,o=p.length===0?0:B.b.gG(p).ghx().length
 A.ca(a,q,t.w).toString
-s=Math.max(7,o)
+s=Math.max(5,o)
 if(!r.w)A.bE(A.bs(0,0,0,500,0,0),r.gPV())
 p=r.d
 p===$&&A.a()
