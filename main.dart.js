@@ -87189,19 +87189,19 @@ n.ck(0,a0,e)
 a4.eJ(n,s)},
 akc(a,b,c,d){var s,r,q,p,o
 for(s=this.c,r=b.a,q=this.f,p=c+10,o=0;o<=s;o+=a)A.auT(q,d,b,new A.i(o/s*r,p),B.n,B.e.ac(o,0),!1)},
-akd(a,b,a0,a1,a2,a3,a4,a5,a6){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c
-for(s=this.c,r=0,q=0;q<=s;++q)r+=a.h(0,"Wind")[q]
-p=1/r
-for(o=b.a,n=a1-a0,m=t.s,q=0;q<=s;++q){l=a.h(0,"Gust")[q]>a.h(0,"Wind")[q]?A.a(["Gust","Wind"],m):A.a(["Wind","Gust"],m)
-for(k=q/s*o,j=0;j<2;++j){i=l[j]
-h=a.h(0,i)[q]
-if(h>0){g=this.w
-f=i==="Gust"
-e=f?4:0
-d=i==="Wind"?4:0
-c=A.pH(new A.i(k-g/s*o+e,a0),new A.i(k-d,h*p*n+a0))
-if(f)a2.ep(c,a5)
-else a2.ep(c,a6)}}}},
+akd(a,a0,a1,a2,a3,a4,a5,a6,a7){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b
+for(s=this.c,r=0,q=0,p=0;p<=s;++p){r+=a.h(0,"Wind")[p]
+q+=a.h(0,"Gust")[p]}for(o=a2-a1,n=a0.a,m=t.s,p=0;p<=s;++p){l=a.h(0,"Gust")[p]>a.h(0,"Wind")[p]?A.a(["Gust","Wind"],m):A.a(["Wind","Gust"],m)
+for(k=p/s*n,j=0;j<2;++j){i=l[j]
+h=a.h(0,i)[p]
+if(h>0){g=i==="Gust"
+f=g?q:r
+e=this.w
+d=g?4:0
+c=i==="Wind"?4:0
+b=A.pH(new A.i(k-e/s*n+d,a1),new A.i(k-c,h/f*o+a1))
+if(g)a3.ep(b,a6)
+else a3.ep(b,a7)}}}},
 akL(a){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d=A.w(t.N,t.Ly)
 for(s=["Wind","Gust"],r=this.b.d,q=$.bh.a,p=t.n,o=0;o<2;++o){n=s[o]
 m=A.a([],p)
